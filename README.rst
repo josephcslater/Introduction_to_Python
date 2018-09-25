@@ -2,7 +2,7 @@
 Instructions for Introduction to Scientific Python
 ==================================================
 
-**If you can't get this to work, you can do `this class in  mybinder.org`_. 
+**If you can't get this to work, you can do `this class in  mybinder.org`_.**
 
 Installing Python
 -----------------
