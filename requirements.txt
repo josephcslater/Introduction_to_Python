@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+sphinx
+ipython
+control
+vibration_toolbox
+xarray
+xlrd
+PyQt5
+fortran-magic
