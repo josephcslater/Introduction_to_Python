@@ -6,7 +6,7 @@ Uses Newton Raphson's method as a vehicle.
 
 import matplotlib.pyplot as plt
 import scipy as sp
-
+import numpy as np
 
 def myfunc(x):
     """
