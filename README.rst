@@ -27,6 +27,7 @@ Windows Users
 
 - Find the Anaconda Prompt application and run it.
 - Type ``conda update --all``
+- Type ``conda install cython``
 
 Mac Users
 ~~~~~~~~~
@@ -34,11 +35,17 @@ Mac Users
 - Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder.
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
+- Type ``conda install cython``
+
+
 
 Linux Users
 ~~~~~~~~~~~
 
 - Open your favorite terminal and type ``conda update --all``
+- Type ``conda install cython``
+
+
 
 Installing GitHub
 -----------------
