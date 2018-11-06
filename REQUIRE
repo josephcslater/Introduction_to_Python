@@ -1,2 +1,5 @@
 PyPlot
 Polynomials
+numba
+cython
+plotly
