@@ -9,3 +9,6 @@ xarray
 xlrd
 PyQt5
 fortran-magic
+bokeh
+cython
+numba
