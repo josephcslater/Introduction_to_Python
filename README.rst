@@ -65,6 +65,11 @@ I will want you to get things during the course from `GitHub <http://github.com>
 
 The rest will happen in class!
 
+(If we have time, we will learn a little bokeh)
+
+``bokeh serve /Users/jslater/Documents/python-dev/bokeh/examples/app/taylor.py``
+
+
 Other Educational Resources
 ---------------------------
 - `Python Plotting With Matplotlib`_
