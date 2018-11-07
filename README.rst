@@ -68,7 +68,7 @@ The rest will happen in class!
 If we have time, we will learn a little Bokeh
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are notes to myself... you might figure them out, you need to know how to hunt paths, though. 
+These are notes to myself... you might figure them out, you need to know how to hunt paths, though.
 
 ``bokeh serve /Users/jslater/Documents/python-dev/bokeh/examples/app/taylor.py``
 
@@ -77,9 +77,9 @@ These are notes to myself... you might figure them out, you need to know how to 
 Other Educational Resources
 ---------------------------
 - `Python Plotting With Matplotlib`_
-- `Lorena Barba's Numerical Mooc`_
+- `Lorena Barba's Numerical Python Mooc`_
 
-.. _`Lorena Barba's Numerical Mooc`: https://github.com/numerical-mooc/numerical-mooc
+.. _`Lorena Barba's Numerical Python Mooc`: https://github.com/numerical-mooc/numerical-mooc
 .. _`Python Plotting With Matplotlib`: https://realpython.com/python-matplotlib-guide/#pylab-what-is-it-and-should-i-use-it
 .. _`Anaconda Python`: https://www.anaconda.com/download/#download
 .. _`GitHub Desktop`: https://desktop.github.com/
