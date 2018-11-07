@@ -30,7 +30,6 @@ Windows Users
 - Type ``conda install cython``
 - Type ``conda install numba``
 
-
 Mac Users
 ~~~~~~~~~
 
@@ -40,16 +39,12 @@ Mac Users
 - Type ``conda install cython``
 - Type ``conda install numba``
 
-
-
 Linux Users
 ~~~~~~~~~~~
 
 - Open your favorite terminal and type ``conda update --all``
 - Type ``conda install cython``
 - Type ``conda install numba``
-
-
 
 Installing GitHub
 -----------------
