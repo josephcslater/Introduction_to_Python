@@ -57,7 +57,7 @@ I will want you to get things during the course from `GitHub <http://github.com>
 
   You will need to use `GitKraken`_.
 
-  - Good News: It's much more powerful
+  - Good News: It's much more powerful.
   - Bad News: It's much more complicated.
 
 - Go to `the repository for this class in your web browser`_.
