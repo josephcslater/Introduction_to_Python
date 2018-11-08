@@ -14,6 +14,7 @@ To be able to execute all of the code I will demonstrate during the class, and t
   
 - `Installing GitHub`_
 
+`What will be covered`_? The rest will happen in class!
 
 Installing Python
 -----------------
@@ -74,7 +75,7 @@ I will want you to get things during the course from `GitHub <http://github.com>
 - Go to `the repository for this class in your web browser`_.
 - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
 
-`What will be covered`_? The rest will happen in class!
+
 
 
 If we have time, we will learn a little Bokeh
