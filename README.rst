@@ -8,8 +8,9 @@ To be able to execute all of the code I will demonstrate during the class, and t
 
 - `Installing Python`_
 
-  -`Windows Users`_
-  -`Mac Users`_
+  - `Windows Users`_
+  
+  - `Mac Users`_
   
 - `Installing GitHub`_
 
