@@ -7,8 +7,10 @@ Instructions for Introduction to Scientific Python
 To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared:
 
 - `Installing Python`_
+
   -`Windows Users`_
   -`Mac Users`_
+  
 - `Installing GitHub`_
 
 
