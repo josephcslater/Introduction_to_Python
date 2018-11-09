@@ -3,3 +3,4 @@ Untitled.ipynb
 __pycache*
 .ipynb_checkpoints*
 bokeh/.DS_Store
+octave-workspace
