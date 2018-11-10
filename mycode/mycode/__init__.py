@@ -3,5 +3,5 @@
 
 # from .mymath import *
 
-# Aall functions in mystrings.py will be imported with mycode
+# All functions in mystrings.py will be imported with mycode
 from .mystrings import *
