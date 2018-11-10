@@ -8,3 +8,5 @@ Topics
 5. Optimization
 6. Manupulating Excel files
 7. **Compiling** Python Code
+8. Parallel processing
+9. Your own repository of code
