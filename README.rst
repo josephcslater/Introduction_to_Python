@@ -9,9 +9,9 @@ To be able to execute all of the code I will demonstrate during the class, and t
 - `Installing Python`_
 
   - `Windows Users`_
-  
+
   - `Mac Users`_
-  
+
 - `Installing GitHub`_
 
 `What will be covered`_? The rest will happen in class!
@@ -92,7 +92,7 @@ Other Educational Resources
 - `Python Plotting With Matplotlib`_
 - `Lorena Barba's Numerical Python Mooc`_
 
-.. _`What will be covered`: https://github.com/josephcslater/Introduction_to_Python/blob/master/topics.rst
+.. _`What will be covered`: https://github.com/josephcslater/Introduction_to_Python/blob/master/Introduction_to_Scientific_Python.ipynb
 .. _`class repository`: https://github.com/josephcslater/Introduction_to_Python
 .. _`Lorena Barba's Numerical Python Mooc`: https://github.com/numerical-mooc/numerical-mooc
 .. _`Python Plotting With Matplotlib`: https://realpython.com/python-matplotlib-guide/#pylab-what-is-it-and-should-i-use-it
