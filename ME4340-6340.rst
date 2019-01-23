@@ -1,0 +1,6 @@
+Introduction to Python for ME 4340/6340
+---------------------------------------
+
+Please follow these instructions step by step very carefully.
+
+If on your own machine, please follow the 'general instructions <>'_
