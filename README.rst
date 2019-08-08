@@ -58,8 +58,8 @@ Linux Users
 - Type ``conda install cython``
 - Type ``conda install numba``
 
-Installing GitHub
------------------
+Installing GitHub Desktop
+-------------------------
 
 I will want you to get things during the course from `GitHub <http://github.com>`_.
 
@@ -75,7 +75,54 @@ I will want you to get things during the course from `GitHub <http://github.com>
 - Go to `the repository for this class in your web browser`_.
 - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
 
+Loading and running my course locally
+-------------------------------------
 
+Mac Users
+~~~~~~~~~
+
+- Open your terminal application.
+  - For Mac, look inside your ``Applications`` folder, inside ``Utilities`` and run ``Terminal``
+  - On Linux, you likely already know which one you like.
+- Move into the appropriate directory
+  - Method 1. (Useful to learn, not necessary today)
+    - Move into the appropriate directory.
+      - This is done using the ``cd`` command. In the ``Finder`` go inside the folder with the cloned repository.
+      - You know you are in the right place when you see ``Calc_Review.ipynb``.
+      - Hold the ``Command`` key and click on the folder icon at the top of the window. It's to the left of ``Introduction_to_Python``.
+      - This is your path. It will look something like ``/MyComputer/Users/Myname/GitHub/Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
+      - Get the right names and type ``cd /MyComputer/Users/Myname/GitHub/Introduction_to_Python``.
+      - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+      - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb``
+  - Method 2. (Quick way but lacking power)
+    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+    - On the right it will provide options, one of which is ``open in terminal``.
+    - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
+- Type ``jupyter notebook Introduction_to_Python.ipynb``
+
+Linux Users
+~~~~~~~~~~~
+
+- Read the Mac instructions and tweak the names for linux. Unfortunately there is no GitHub Desktop for linux
+
+Windows Users
+~~~~~~~~~~~~~
+
+- Open ``Anaconda Terminal``
+- Move into the appropriate directory
+  - Method 1. (Useful to learn, maybe not necessary today)
+  - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
+  - You know you are in the right place when you see ``Calc_Review.ipynb``.
+  - Near the top of the window you can see the entire path.
+  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
+  - Get the right names and type ``cd C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``.
+  - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+  - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
+- Method 2. (Quick way but lacking power)
+- In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+- On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
+- This, plus the ``pwd`` (maybe ``cwd`` ?)command (present working directory) can tell you where everything is.
+- Type ``jupyter notebook Introduction_to_Python.ipynb``
 
 
 If we have time, we will learn a little Bokeh
