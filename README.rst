@@ -121,7 +121,7 @@ Windows Users
 - Method 2. (Quick way but lacking power)
 - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
 - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
-- This, plus the ``pwd`` (maybe ``cwd`` ?)command (present working directory) can tell you where everything is.
+- This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
 - Type ``jupyter notebook Introduction_to_Python.ipynb``
 
 
