@@ -4,17 +4,9 @@ Instructions for Introduction to Scientific Python
 
 **If you can't get this to work, you can do much of** `this class in  mybinder.org`_.
 
-To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared:
+To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below. 
 
-- `Installing Python`_
-
-  - `Windows Users`_
-
-  - `Mac Users`_
-
-- `Installing GitHub`_
-
-.. contents:: Table of Contents
+.. contents:: **Table of Contents**
 
 `What will be covered`_? The rest will happen in class! (See that link, those are the actual class notes).
 
