@@ -7,6 +7,7 @@ Instructions for Introduction to Scientific Python
 To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below. 
 
 .. contents:: **Table of Contents**
+.. section-numbering::
 
 `What will be covered`_? The rest will happen in class! (See that link, those are the actual class notes).
 
