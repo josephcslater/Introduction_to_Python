@@ -12,7 +12,6 @@ Instructions for Introduction to Scientific Python
 :Contact: joseph.c.slater@gmail.com
 :date: $Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019) $
 :status: This is a "work in progress"
-:revision: $Revision: 1 $
 :version: 1
 :copyright: This document has been placed in the public domain. You
             may do with it as you wish. You may copy, modify,
