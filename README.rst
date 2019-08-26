@@ -14,6 +14,8 @@ To be able to execute all of the code I will demonstrate during the class, and t
 
 - `Installing GitHub`_
 
+.. contents:: Table of Contents
+
 `What will be covered`_? The rest will happen in class! (See that link, those are the actual class notes).
 
 Installing Python
