@@ -20,10 +20,10 @@ Instructions for Introduction to Scientific Python
             incorporate, collate, fold, staple, or mutilate it, or do
             anything else to it that your or anyone else's heart
             desires.
-              
+
 **If you can't get this to work, you can do much of** `this class in  mybinder.org`_.
 
-To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below. 
+To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below.
 
 .. contents:: **Table of Contents**
 .. section-numbering::
@@ -51,7 +51,7 @@ Platform Differences
 Windows Users
 ~~~~~~~~~~~~~
 
-- Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. 
+- Find the Anaconda Prompt application and run it. Answer *yes* to all prompts.
 - Type ``conda update --all``
 - Type ``conda install cython``
 - Type ``conda install numba``
@@ -59,7 +59,7 @@ Windows Users
 Mac Users
 ~~~~~~~~~
 
-- Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts. 
+- Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts.
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
 - Type ``conda install cython``
@@ -68,7 +68,7 @@ Mac Users
 Linux Users
 ~~~~~~~~~~~
 
-- Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts. 
+- Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts.
 - Type ``conda install cython``
 - Type ``conda install numba``
 
@@ -85,7 +85,7 @@ I will want you to get things during the course from `GitHub <http://github.com>
 
   - Good News: It's much more powerful.
   - Bad News: It's much more complicated.
-  - I need to leave it to you to read up on how to use it. I'll try to add instructions later. 
+  - I need to leave it to you to read up on how to use it. I'll try to add instructions later.
 
 - Go to `the repository for this class in your web browser`_.
 - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
@@ -129,8 +129,8 @@ Windows Users
   - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
   - You know you are in the right place when you see ``Calc_Review.ipynb``.
   - Near the top of the window you can see the entire path.
-  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
-  - Get the right names and type ``cd C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``.
+  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above. 
   - There may be something like ``Documents`` or such embedded. You need to figure this path out.
   - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
 - Method 2. (Quick way but lacking power)
