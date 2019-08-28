@@ -51,7 +51,7 @@ Platform Differences
 Windows Users
 ~~~~~~~~~~~~~
 
-- Find the Anaconda Prompt application and run it.
+- Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. 
 - Type ``conda update --all``
 - Type ``conda install cython``
 - Type ``conda install numba``
@@ -59,7 +59,7 @@ Windows Users
 Mac Users
 ~~~~~~~~~
 
-- Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder.
+- Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts. 
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
 - Type ``conda install cython``
@@ -68,7 +68,7 @@ Mac Users
 Linux Users
 ~~~~~~~~~~~
 
-- Open your favorite terminal and type ``conda update --all``
+- Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts. 
 - Type ``conda install cython``
 - Type ``conda install numba``
 
@@ -85,6 +85,7 @@ I will want you to get things during the course from `GitHub <http://github.com>
 
   - Good News: It's much more powerful.
   - Bad News: It's much more complicated.
+  - I need to leave it to you to read up on how to use it. I'll try to add instructions later. 
 
 - Go to `the repository for this class in your web browser`_.
 - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
