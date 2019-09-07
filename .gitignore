@@ -8,3 +8,4 @@ octave-workspace
 *.DS_Store*
 Untitled*
 .DS_Store
+_cffi_*

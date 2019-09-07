@@ -12,3 +12,7 @@ fortran-magic
 bokeh
 cython
 numba
+rpy2
+tzlocal
+simplegeneric
+cffi_magic
