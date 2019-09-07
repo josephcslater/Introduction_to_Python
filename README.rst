@@ -1,3 +1,9 @@
+.. image:: https://mybinder.org/badge.svg 
+    :target: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
+
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
+   :target: https://saythanks.io/to/josephcslater
+
 
 Instructions for Introduction to Scientific Python
 ==================================================
