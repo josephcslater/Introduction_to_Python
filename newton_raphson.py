@@ -1,11 +1,10 @@
 """
-Demonstration of Python Scientific computing.
+Demonstrate of Scientific Python computing.
 
 Uses Newton Raphson's method as a vehicle.
 """
 
 import matplotlib.pyplot as plt
-import scipy as sp
 import numpy as np
 
 def myfunc(x):
@@ -33,6 +32,7 @@ def myfunc(x):
         array([  -4.        ,   -0.54320988,    5.38271605,   13.77777778,
              24.64197531,   37.97530864,   53.77777778,   72.04938272,
              92.79012346,  116.        ])
+
     """
     return x**2+2*x-4
 
@@ -62,6 +62,7 @@ def newton_raphson_plot(function, x0=0, dx=1e-10, eps=1e-10):
     >>> function_name = 'myfunc'
     >>> newton_raphson_plot(function_name, x0=2)
         (1.23606797..., ...)
+
     """
     deltax = 2 * eps
     count = 0
@@ -112,18 +113,19 @@ def newton_raphson(function, x0=0, dx=1e-10, eps=1e-10):
     >>> function_name = 'myfunc'
     >>> newton_raphson(function_name, x0=2)
         (1.2360679..., ...)
+
     """
     deltax = 2*eps
     count = 0
     x = x0
     # loop until it converges, but no more than 50 times
     while abs(deltax) > eps and count < 50:
-        count += 1 # I can add 1 to the variable *count*. Neat Python shortcut.
+        count += 1  # I can add 1 to the variable *count*. Neat Python shortcut.
         # This is a comment
         # The next line is "Matlab style" and *bad*
-        #f = eval(function + '('+ str(x) + ')')
-        f = globals()[function](x)  #We explain later.
-        #f2 = eval(function + '('+ str(x+dx) + ')')
+        # f = eval(function + '('+ str(x) + ')')
+        f = globals()[function](x)  # We explain later.
+        # f2 = eval(function + '('+ str(x+dx) + ')')
         f2 = globals()[function](x+dx)
         dfdx = (f2-f)/dx
         deltax = -f/dfdx
