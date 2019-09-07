@@ -12,7 +12,7 @@ fortran-magic
 bokeh
 cython
 numba
-f2py
+# f2py
 rpy2
 tzlocal
 simplegeneric
