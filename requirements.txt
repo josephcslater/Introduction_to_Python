@@ -17,3 +17,4 @@ rpy2
 tzlocal
 simplegeneric
 cffi_magic
+sympy
