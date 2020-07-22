@@ -39,7 +39,7 @@ To be able to execute all of the code I will demonstrate during the class, and t
 Installing Python
 -----------------
 
-- Students should have `Anaconda Python`_, Python version 3.5, 3.6, or 3.7, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
+- Students should have `Anaconda Python`_, Python version 3.5, 3.6, 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
 I may have an alternative live during the course, but it won't get your machine working!
 
