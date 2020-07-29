@@ -13,7 +13,7 @@ bokeh
 cython
 numba
 # f2py
-# rpy2
+rpy2
 tzlocal
 simplegeneric
 cffi_magic
