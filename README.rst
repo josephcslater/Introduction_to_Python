@@ -183,4 +183,4 @@ Recommended Books
 .. _`GitHub Desktop`: https://desktop.github.com/
 .. _`GitKraken`: https://www.gitkraken.com/
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
-.. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
+.. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/jupyter_environment/master?urlpath=git-pull?repo=<https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master>
