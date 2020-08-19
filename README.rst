@@ -29,6 +29,8 @@ Instructions for Introduction to Scientific Python
 
 **If you can't get this to work, you can do much of** `this class in  mybinder.org`_.
 
+**More full-featured, you can** `do this class in Jupyter Lab`_.
+
 To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below.
 
 .. contents:: **Table of Contents**
@@ -184,4 +186,5 @@ Recommended Books
 .. _`GitKraken`: https://www.gitkraken.com/
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
 .. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
+.. _`do this class in Jupyter Lab`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
 
