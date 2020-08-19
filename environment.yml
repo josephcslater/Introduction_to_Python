@@ -9,9 +9,7 @@ dependencies:
   - slycot
   - control
   - graphviz
-  - xdg
-  - vibration_toolbox
-  - xarray
+  - xdg  - xarray
   - xlrd
   - PyQt5
   - fortran-magic
@@ -24,6 +22,4 @@ dependencies:
   - cffi_magic
   - pip:
     - pysfg
-    - graphviz
-    - strictyaml
-    - networkx
+    - vibration_toolbox
