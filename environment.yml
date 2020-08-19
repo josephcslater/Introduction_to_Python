@@ -1,0 +1,29 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - sympy
+  - scipy
+  - matplotlib
+  - slycot
+  - control
+  - graphviz
+  - xdg
+  - vibration_toolbox
+  - xarray
+  - xlrd
+  - PyQt5
+  - fortran-magic
+  - boken
+  - cython
+  - numba
+  - rpy2
+  - tzlocal
+  - simplegeneric
+  - cffi_magic
+  - pip:
+    - pysfg
+    - graphviz
+    - strictyaml
+    - networkx
