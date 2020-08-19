@@ -9,17 +9,19 @@ dependencies:
   - slycot
   - control
   - graphviz
-  - xdg  - xarray
+  - xdg
+  - xarray
   - xlrd
   - PyQt5
   - fortran-magic
-  - boken
+  - bokeh
   - cython
   - numba
   - rpy2
   - tzlocal
   - simplegeneric
-  - cffi_magic
   - pip:
     - pysfg
     - vibration_toolbox
+    - PyQt5
+    - cffi_magic
