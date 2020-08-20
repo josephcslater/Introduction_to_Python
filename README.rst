@@ -27,7 +27,7 @@ Instructions for Introduction to Scientific Python
             anything else to it that your or anyone else's heart
             desires.
 
-**If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with `.ipynb`) in the repository. Once the virtual machine launches, select the one you are interested in. 
+**If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with *.ipynb*) in the repository. Once the virtual machine launches, select the one you are interested in. 
 
 **More full-featured, you can** `do this class in Jupyter Lab`_.
 
