@@ -1,7 +1,7 @@
-.. image:: https://mybinder.org/badge.svg 
+.. image:: https://mybinder.org/badge.svg
     :target: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
 
-.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
    :target: https://saythanks.io/to/josephcslater
 
 
@@ -16,7 +16,7 @@ Instructions for Introduction to Scientific Python
           Tennessee Tech University
           Cookeville, TN 38505
 :Contact: joseph.c.slater@gmail.com
-:date: Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019) 
+:date: Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019)
 :status: This is a "work in progress"
 :version: 1
 :copyright: This document has been placed in the public domain. You
@@ -27,7 +27,7 @@ Instructions for Introduction to Scientific Python
             anything else to it that your or anyone else's heart
             desires.
 
-**If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with *.ipynb*) in the repository. Once the virtual machine launches, select the one you are interested in. 
+**If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with ``.ipynb``) in the repository. Once the virtual machine launches, select the one you are interested in. 
 
 **More full-featured, you can** `do this class in Jupyter Lab`_.
 
@@ -116,12 +116,12 @@ Mac Users
       - This is your path. It will look something like ``/MyComputer/Users/Myname/GitHub/Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
       - Get the right names and type ``cd /MyComputer/Users/Myname/GitHub/Introduction_to_Python``.
       - There may be something like ``Documents`` or such embedded. You need to figure this path out.
-      - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb``
+      - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb`` and ``Introduction_to_Python.ipynb``.
   - Method 2. (Quick way but lacking power)
     - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
     - On the right it will provide options, one of which is ``open in terminal``.
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
-- Type ``jupyter notebook Introduction_to_Python.ipynb``
+- Type ``jupyter notebook Introduction_to_Python.ipynb``, or for a more sophisticated environment, ``jupyter lab Introduction_to_Python.ipynb``.
 
 Linux Users
 ~~~~~~~~~~~
@@ -138,14 +138,14 @@ Windows Users
   - You know you are in the right place when you see ``Calc_Review.ipynb``.
   - Near the top of the window you can see the entire path.
   - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
-  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above. 
+  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
   - There may be something like ``Documents`` or such embedded. You need to figure this path out.
   - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
 - Method 2. (Quick way but lacking power)
 - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
 - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
 - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
-- Type ``jupyter notebook Introduction_to_Python.ipynb``
+- Type ``jupyter notebook Introduction_to_Python.ipynb``, or for a more sophisticated system, ``jupyter lab Introduction_to_Python.ipynb``.
 
 
 If we have time, we will learn a little Bokeh
@@ -187,4 +187,3 @@ Recommended Books
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
 .. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
 .. _`do this class in Jupyter Lab`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
-
