@@ -31,6 +31,8 @@ Instructions for Introduction to Scientific Python
 
 **More full-featured, you can** `do this class in Jupyter Lab`_.
 
+How did I do this? `binder`_. 
+
 To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below.
 
 .. contents:: **Table of Contents**
@@ -170,7 +172,7 @@ Recommended Books
 - `Learning Scientific Programming with Python`_ - Christian Hill
 - `A Primer on Scientific Programming with Python`_ - Hans Petter Langtangen (`4th Edition`_)
 
-
+.. _`binder`: https://mybinder.org
 .. _`SciPy Cookbook`: https://scipy-cookbook.readthedocs.io/
 .. _`Generic Python Introduction`: https://github.com/guntukukamal/Good-python-reference
 .. _`SciPy Lecture Notes`: https://github.com/scipy-lectures/scipy-lecture-notes
