@@ -10,9 +10,9 @@ Instructions for Introduction to Scientific Python
 .. bibliographic fields (which also require a transform):
 
 :Author: Joseph C. Slater
-:Address: 201 Clement Hall
-          1010 N. Peachtree Avenue
-          Tennessee Tech University
+:Address: 201 Clement Hall,
+          1010 N. Peachtree Avenue,
+          Tennessee Tech University,
           Cookeville, TN 38505
 :Contact: joseph.c.slater@gmail.com
 :date: Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019)
