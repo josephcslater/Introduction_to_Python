@@ -4,6 +4,8 @@
 .. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
    :target: https://saythanks.io/to/josephcslater
 
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
+   :target: https://saythanks.io/to/joseph.c.slater@gmail.com
 
 Instructions for Introduction to Scientific Python
 ==================================================
