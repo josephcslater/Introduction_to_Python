@@ -22,5 +22,6 @@ dependencies:
   - simplegeneric
   - widgetsnbextension
   - pip
+  - nodejs
   - pip:
     - -r requirements.txt
