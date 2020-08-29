@@ -19,6 +19,7 @@ dependencies:
   - rpy2
   - tzlocal
   - simplegeneric
+  - widgetsnbextension
   - pip:
     - pysfg
     - vibration_toolbox
