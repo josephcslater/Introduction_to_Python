@@ -1,21 +1,6 @@
-numpy
-scipy
-matplotlib
 sphinx
-ipython
-control
 vibration_toolbox
-xarray
-xlrd
 PyQt5
 fortran-magic
-bokeh
-cython
-numba
-# f2py
-rpy2
-tzlocal
-simplegeneric
 cffi_magic
-sympy
 # https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922
