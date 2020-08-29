@@ -21,5 +21,6 @@ dependencies:
   - tzlocal
   - simplegeneric
   - widgetsnbextension
+  - pip
   - pip:
     - -r requirements.txt
