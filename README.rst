@@ -1,7 +1,7 @@
 .. image:: https://mybinder.org/badge.svg
     :target: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
-    
-.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg 
+
+.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
    :target: https://saythanks.io/to/joseph.c.slater@gmail.com
 
 Instructions for Introduction to Scientific Python
@@ -10,7 +10,7 @@ Instructions for Introduction to Scientific Python
 .. bibliographic fields (which also require a transform):
 
 :Author: Joseph C. Slater
-:Address: | 201 Clement Hall  
+:Address: | 201 Clement Hall
           | 1010 N. Peachtree Avenue
           | Tennessee Tech University
           | Cookeville, TN 38505
@@ -28,10 +28,9 @@ Instructions for Introduction to Scientific Python
 
 **If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with ``.ipynb``) in the repository. Once the virtual machine launches, select the one you are interested in.
 
-**More full-featured, you can** `do this class in Jupyter Lab`_.  
-Note: the dynamic widgets don't work as well here. This is better for "work", while the notebook is better for demonstration right now. 
+**More full-featured, you can** `do this class in Jupyter Lab`_.
 
-How did I do this? `binder`_. 
+How did I do this? `binder`_.
 
 To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below.
 
@@ -63,8 +62,7 @@ Windows Users
 
 - Find the Anaconda Prompt application and run it. Answer *yes* to all prompts.
 - Type ``conda update --all``
-- Type ``conda install cython``
-- Type ``conda install numba``
+- Type ``conda env update --file environment.yml``
 
 Mac Users
 ~~~~~~~~~
@@ -72,15 +70,17 @@ Mac Users
 - Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts.
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
-- Type ``conda install cython``
-- Type ``conda install numba``
+- Type ``conda env update --file environment.yml``
 
 Linux Users
 ~~~~~~~~~~~
 
 - Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts.
-- Type ``conda install cython``
-- Type ``conda install numba``
+- Type ``conda env update --file environment.yml``
+
+Magic things will happen.
+
+Necessary are ``cython`` and ``numba``, but this *magic* gives you a lot of goodies you may see me use on screen. I don't want you disappointed.
 
 Installing GitHub Desktop
 -------------------------
@@ -127,7 +127,6 @@ Mac Users
 
 Linux Users
 ~~~~~~~~~~~
-
 - Read the Mac instructions and tweak the names for linux. Unfortunately there is no GitHub Desktop for linux
 
 Windows Users
