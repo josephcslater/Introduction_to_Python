@@ -118,12 +118,12 @@ Mac Users
       - This is your path. It will look something like ``/MyComputer/Users/Myname/GitHub/Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
       - Get the right names and type ``cd /MyComputer/Users/Myname/GitHub/Introduction_to_Python``.
       - There may be something like ``Documents`` or such embedded. You need to figure this path out.
-      - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb`` and ``Introduction_to_Python.ipynb``.
+      - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb`` and ``Introduction_to_Scientific_Python.ipynb``.
   - Method 2. (Quick way but lacking power)
-    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``. (sorry- I have some inconsistencies where "Scientific" is missing. I cannot fix them without breaking things.)
     - On the right it will provide options, one of which is ``open in terminal``.
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
-- Type ``jupyter notebook Introduction_to_Python.ipynb``, or for a more sophisticated environment, ``jupyter lab Introduction_to_Python.ipynb``.
+- Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
 
 Linux Users
 ~~~~~~~~~~~
@@ -138,7 +138,7 @@ Windows Users
   - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
   - You know you are in the right place when you see ``Calc_Review.ipynb``.
   - Near the top of the window you can see the entire path.
-  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
   - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
   - There may be something like ``Documents`` or such embedded. You need to figure this path out.
   - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
@@ -146,7 +146,7 @@ Windows Users
 - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
 - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
 - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
-- Type ``jupyter notebook Introduction_to_Python.ipynb``, or for a more sophisticated system, ``jupyter lab Introduction_to_Python.ipynb``.
+- Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated system, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
 
 
 If we have time, we will learn a little Bokeh
