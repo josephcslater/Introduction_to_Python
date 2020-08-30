@@ -39,8 +39,8 @@ To be able to execute all of the code I will demonstrate during the class, and t
 
 `What will be covered`_? The rest will happen in class! (See that link, those are the actual class notes).
 
-Installing Python
------------------
+Installing Scientific Python
+----------------------------
 
 - Students should have `Anaconda Python`_, Python version 3.5, 3.6, 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
