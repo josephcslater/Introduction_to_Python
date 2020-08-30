@@ -21,6 +21,7 @@ dependencies:
   - tzlocal
   - simplegeneric
   - widgetsnbextension
+  - jupyter_nbextensions_configurator
   - pip
   - nodejs
   - pip:
