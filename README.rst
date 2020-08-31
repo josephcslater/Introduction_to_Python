@@ -62,7 +62,6 @@ Windows Users
 
 - Find the Anaconda Prompt application and run it. Answer *yes* to all prompts.
 - Type ``conda update --all``
-- Type ``conda env update --file environment.yml``
 
 Mac Users
 ~~~~~~~~~
@@ -70,17 +69,13 @@ Mac Users
 - Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts.
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
-- Type ``conda env update --file environment.yml``
 
 Linux Users
 ~~~~~~~~~~~
 
 - Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts.
-- Type ``conda env update --file environment.yml``
 
 Magic things will happen.
-
-Necessary are ``cython`` and ``numba``, but this *magic* gives you a lot of goodies you may see me use on screen. I don't want you disappointed.
 
 Installing GitHub Desktop
 -------------------------
@@ -123,6 +118,7 @@ Mac Users
     - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``. (sorry- I have some inconsistencies where "Scientific" is missing. I cannot fix them without breaking things.)
     - On the right it will provide options, one of which is ``open in terminal``.
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
+- Type ``conda env update --file environment.yml``
 - Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
 
 Linux Users
@@ -146,6 +142,7 @@ Windows Users
 - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
 - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
 - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
+- Type ``conda env update --file environment.yml``
 - Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated system, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
 
 
