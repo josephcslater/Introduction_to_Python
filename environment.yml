@@ -17,6 +17,7 @@ dependencies:
   - bokeh
   - cython
   - numba
+  - rise
   - rpy2
   - tzlocal
   - simplegeneric
