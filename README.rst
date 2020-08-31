@@ -54,14 +54,56 @@ I may have an alternative live during the course, but it won't get your machine 
 
 - All platforms (Mac, Windows, Linux) will be covered.
 
+Step 1:
+
+- **Windows and Mac**: Download `GitHub Desktop`_ and install it. You may need to create an account on GitHub.
+
+- **Linux users**: Follow the MacOS instructions. The Mac is unix too.
+
+- You will need to use `GitKraken`_.
+
+  - Good News: It's much more powerful.
+  - Bad News: It's much more complicated.
+  - I need to leave it to you to read up on how to use it. I'll try to add instructions later.
+  - Go to `the repository for this class in your web browser`_.
+  - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
+
+
+
 Platform Differences
 --------------------
+
+Fundamentally, theses instructions are the same. The challenge is most users may not have used a terminal before.
+Further, Anaconda sets up your terminal to work well for you.
+
+These are step-by-step to walk you through what needs to happen in the terminal for each platform.
 
 Windows Users
 ~~~~~~~~~~~~~
 
-- Find the Anaconda Prompt application and run it. Answer *yes* to all prompts.
+- Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. Don't do anything it advises against.
 - Type ``conda update --all``
+- Open ``Anaconda Terminal``
+- Move into the appropriate directory
+  - Method 1. (Useful to learn, maybe not necessary today)
+  - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
+  - You know you are in the right place when you see ``Calc_Review.ipynb``.
+  - Near the top of the window you can see the entire path.
+  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
+  - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+  - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
+- Method 2. (Quick way but lacking power)
+- In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+- On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
+- This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
+- Type ``conda env update --file environment.yml``
+
+Get to this directory when you want to run the course material (maybe now, maybe later) and type:
+
+- ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
+- ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
+
 
 Mac Users
 ~~~~~~~~~
@@ -69,38 +111,6 @@ Mac Users
 - Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts.
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
 - Type ``conda update --all``
-
-Linux Users
-~~~~~~~~~~~
-
-- Open your favorite terminal and type ``conda update --all``.  Answer *yes* to all prompts.
-
-Magic things will happen.
-
-Installing GitHub Desktop
--------------------------
-
-I will want you to get things during the course from `GitHub <http://github.com>`_.
-
-- Download `GitHub Desktop`_ and install it. You may need to create an account on GitHub.
-
-  Linux Users:
-
-  You will need to use `GitKraken`_.
-
-  - Good News: It's much more powerful.
-  - Bad News: It's much more complicated.
-  - I need to leave it to you to read up on how to use it. I'll try to add instructions later.
-
-- Go to `the repository for this class in your web browser`_.
-- You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
-
-Loading and running my course locally
--------------------------------------
-
-Mac Users
-~~~~~~~~~
-
 - Open your terminal application.
   - For Mac, look inside your ``Applications`` folder, inside ``Utilities`` and run ``Terminal``
   - On Linux, you likely already know which one you like.
@@ -119,35 +129,14 @@ Mac Users
     - On the right it will provide options, one of which is ``open in terminal``.
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
 - Type ``conda env update --file environment.yml``
-- Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
 
-Linux Users
-~~~~~~~~~~~
-- Read the Mac instructions and tweak the names for linux. Unfortunately there is no GitHub Desktop for linux
+Get to this same directory when you want to run the course material (maybe now, maybe later) and type:
 
-Windows Users
-~~~~~~~~~~~~~
+- ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
+- ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
 
-- Open ``Anaconda Terminal``
-- Move into the appropriate directory
-  - Method 1. (Useful to learn, maybe not necessary today)
-  - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
-  - You know you are in the right place when you see ``Calc_Review.ipynb``.
-  - Near the top of the window you can see the entire path.
-  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
-  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
-  - There may be something like ``Documents`` or such embedded. You need to figure this path out.
-  - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
-- Method 2. (Quick way but lacking power)
-- In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
-- On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
-- This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
-- Type ``conda env update --file environment.yml``
-- Type ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated system, ``jupyter lab Introduction_to_Scientific_Python.ipynb``.
-
-
-If we have time, we will learn a little Bokeh
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If we have time, we will learn a little Bokeh (probably not)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are notes to myself... you might figure them out, you need to know how to hunt paths, though.
 
@@ -158,7 +147,7 @@ These are notes to myself... you might figure them out, you need to know how to 
 Other Educational Resources
 ---------------------------
 - `Python Plotting With Matplotlib`_
-- `Lorena Barba's Numerical Python Mooc`_
+- `Lorena Barba's Numerical Python MOOC`_
 - `SciPy Lecture Notes`_
 - `Generic Python Introduction`_
 - `SciPy Cookbook`_
@@ -177,7 +166,7 @@ Recommended Books
 .. _`Learning Scientific Programming with Python`: https://www.amazon.com/Learning-Scientific-Programming-Python-Christian/dp/110742822X/ref=sr_1_3?ie=UTF8&qid=1542249635&sr=8-3&keywords=scientific+python
 .. _`What will be covered`: https://github.com/josephcslater/Introduction_to_Python/blob/master/Introduction_to_Scientific_Python.ipynb
 .. _`class repository`: https://github.com/josephcslater/Introduction_to_Python
-.. _`Lorena Barba's Numerical Python Mooc`: https://github.com/numerical-mooc/numerical-mooc
+.. _`Lorena Barba's Numerical Python MOOC`: https://github.com/numerical-mooc/numerical-mooc
 .. _`Python Plotting With Matplotlib`: https://realpython.com/python-matplotlib-guide/#pylab-what-is-it-and-should-i-use-it
 .. _`Anaconda Python`: https://www.anaconda.com/download/#download
 .. _`GitHub Desktop`: https://desktop.github.com/
