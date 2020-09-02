@@ -110,7 +110,9 @@ Mac Users
 ~~~~~~~~~
 
 - Find the ``Terminal.app``. It is located in your ``/Applications/Utilities`` folder. Answer *yes* to all prompts.
+
   - Quick tip- command-key space-bar, then type 'Terminal' may launch it if Spotlight is set up correctly.
+
 - Type ``conda update --all``
 - Open your terminal application.
   - For Mac, look inside your ``Applications`` folder, inside ``Utilities`` and run ``Terminal``
