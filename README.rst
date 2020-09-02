@@ -115,28 +115,46 @@ Mac Users
 
 - Type ``conda update --all``
 - Open your terminal application.
+
   - For Mac, look inside your ``Applications`` folder, inside ``Utilities`` and run ``Terminal``
+
   - On Linux, you likely already know which one you like (or why are you using Linux?).
+
 - Move into the appropriate directory
+
   - Method 1. (Useful to learn, not necessary today)
+
     - Move into the appropriate directory.
+
       - This is done using the ``cd`` command. In the ``Finder`` go inside the folder with the cloned repository.
+
       - You know you are in the right place when you see ``Calc_Review.ipynb``.
+
       - Hold the ``Command`` key and click on the folder icon at the top of the window. It's to the left of ``Introduction_to_Python``.
+
       - This is your path. It will look something like ``/MyComputer/Users/Myname/GitHub/Introduction_to_Python``. It depends on a lot of decisions you've made in the past and presently.
+
       - Get the right names and type ``cd /MyComputer/Users/Myname/GitHub/Introduction_to_Python``.
+
       - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+
       - Typing ``ls`` should provide a list of files that include ``Calc_Review.ipynb`` and ``Introduction_to_Scientific_Python.ipynb``.
+
   - Method 2. (Quick way but lacking power)
+
     - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``. (sorry- I have some inconsistencies where "Scientific" is missing. I cannot fix them without breaking things.)
+
     - On the right it will provide options, one of which is ``open in terminal``.
+
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
+
 - Type ``conda env update --file environment.yml``
 
-Get to this same directory when you want to run the course material (maybe now, maybe later) and type:
+- Get to this same directory when you want to run the course material (maybe now, maybe later) and type one of:
 
-- ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
-- ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
+  - ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
+
+  - ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
 
 If we have time, we will learn a little Bokeh (probably not)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
