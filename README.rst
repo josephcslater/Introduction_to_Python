@@ -72,8 +72,6 @@ Step 1:
 
 - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
 
-
-
 Platform Differences
 --------------------
 
