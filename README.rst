@@ -65,12 +65,12 @@ Step 1:
     - Good News: It's much more powerful.
 
     - Bad News: It's much more complicated.
-    
+
     - I need to leave it to you to read up on how to use it. I'll try to add instructions later.
 
-    - Go to `the repository for this class in your web browser`_.
+- Go to `the repository for this class in your web browser`_.
 
-    - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
+- You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
 
 
 
