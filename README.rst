@@ -84,19 +84,20 @@ Windows Users
 - Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. Don't do anything it advises against.
 - Type ``conda update --all``
 - Open ``Anaconda Terminal``
-- Move into the appropriate directory
+- You need to get to the right directory in Anaconda Terminal. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
   - Method 1. (Useful to learn, maybe not necessary today)
-  - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
-  - You know you are in the right place when you see ``Calc_Review.ipynb``.
-  - Near the top of the window you can see the entire path.
-  - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
-  - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
-  - There may be something like ``Documents`` or such embedded. You need to figure this path out.
-  - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
-- Method 2. (Quick way but lacking power)
-- In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
-- On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
-- This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
+    - Move into the appropriate directory.
+      - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
+      - You know you are in the right place when you see ``Calc_Review.ipynb``.
+      - Near the top of the window you can see the entire path.
+      - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+      - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
+      - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+      - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
+  - Method 2. (Quick way but lacking power)
+    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+    - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
+    - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
 - Type ``conda env update --file environment.yml``
 
 Get to this directory when you want to run the course material (maybe now, maybe later) and type:
@@ -113,7 +114,7 @@ Mac Users
 - Type ``conda update --all``
 - Open your terminal application.
   - For Mac, look inside your ``Applications`` folder, inside ``Utilities`` and run ``Terminal``
-  - On Linux, you likely already know which one you like.
+  - On Linux, you likely already know which one you like (or why are you using Linux?).
 - Move into the appropriate directory
   - Method 1. (Useful to learn, not necessary today)
     - Move into the appropriate directory.
