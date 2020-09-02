@@ -63,9 +63,13 @@ Step 1:
   - You will need to use `GitKraken`_.
 
     - Good News: It's much more powerful.
+
     - Bad News: It's much more complicated.
+    
     - I need to leave it to you to read up on how to use it. I'll try to add instructions later.
+
     - Go to `the repository for this class in your web browser`_.
+
     - You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
 
 
@@ -85,25 +89,39 @@ Windows Users
 - Type ``conda update --all``
 - Open ``Anaconda Terminal``
 - You need to get to the right directory in Anaconda Terminal. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
+
   - Method 1. (Useful to learn, maybe not necessary today)
+
     - Move into the appropriate directory.
+
       - This is done using the ``cd`` command. In the ``File Explorer`` go inside the folder with the cloned repository.
+
       - You know you are in the right place when you see ``Calc_Review.ipynb``.
+
       - Near the top of the window you can see the entire path.
+
       - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+
       - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
+
       - There may be something like ``Documents`` or such embedded. You need to figure this path out.
+
       - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
+
   - Method 2. (Quick way but lacking power)
+
     - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+
     - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
+
     - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
 - Type ``conda env update --file environment.yml``
 
-Get to this directory when you want to run the course material (maybe now, maybe later) and type:
+- Get to this directory when you want to run the course material (maybe now, maybe later) and type:
 
-- ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
-- ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
+  - ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
+
+  - ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
 
 
 Mac Users
