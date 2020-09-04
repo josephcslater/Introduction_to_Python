@@ -26,4 +26,4 @@ dependencies:
   - nodejs
   - r
   - pip:
-    - --user -r requirements.txt
+    - -r requirements.txt --user
