@@ -25,6 +25,5 @@ dependencies:
   - pip
   - nodejs
   - r
-  - rpy2
   - pip:
     - -e -r requirements.txt
