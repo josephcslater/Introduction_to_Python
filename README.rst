@@ -32,7 +32,7 @@ Instructions for Introduction to Scientific Python
 
 How did I do this? `binder`_.
 
-To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing Anaconda Python and the Github app per the instructionsin the sections below.
+To be able to execute all of the code I will demonstrate during the class, and to be able to write your own, please come prepared by installing `Anaconda Python`_ and `Github Desktop`_ per the instructions in the sections below.
 
 .. contents:: **Table of Contents**
 .. section-numbering::
@@ -85,8 +85,8 @@ Windows Users
 
 - Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. Don't do anything it advises against.
 - Type ``conda update --all``
-- Open ``Anaconda Terminal``
-- You need to get to the right directory in Anaconda Terminal. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
+- Open ``Anaconda Prompt``
+- You need to get to the right directory in Anaconda Prompt. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
 
   - Method 1. (Useful to learn, maybe not necessary today)
 
@@ -108,9 +108,9 @@ Windows Users
 
   - Method 2. (Quick way but lacking power)
 
-    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``.
+    - In the `GitHub Desktop`_ (app), select the repository ``Introduction_to_Python``.
 
-    - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Terminal``.
+    - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Prompt``.
 
     - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
 - Type ``conda env update --file environment.yml``
@@ -158,7 +158,7 @@ Mac Users
 
   - Method 2. (Quick way but lacking power)
 
-    - In the GitHub Desktop (app), select the repository ``Introduction_to_Python``. (sorry- I have some inconsistencies where "Scientific" is missing. I cannot fix them without breaking things.)
+    - In the `GitHub Desktop`_ (app), select the repository ``Introduction_to_Python``. (sorry- I have some inconsistencies where "Scientific" is missing. I cannot fix them without breaking things.)
 
     - On the right it will provide options, one of which is ``open in terminal``.
 
