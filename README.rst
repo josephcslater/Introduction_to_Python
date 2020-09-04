@@ -28,6 +28,8 @@ Instructions for Introduction to Scientific Python
 
 **If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with ``.ipynb``) in the repository. Once the virtual machine launches, select the one you are interested in.
 
+**WARNING**: Failure to put thing in the right place will very likely result in you not being able to make sense of the rest of the instructions and getting a working system in time. **Please install things in the expected locations!**
+
 **More full-featured, you can** `do this class in Jupyter Lab`_.
 
 How did I do this? `binder`_.
@@ -70,7 +72,8 @@ Step 1:
 
 - Go to `the repository for this class in your web browser`_.
 
-- You should be able to see a green button that says ``Clone or Download``. ``Clone`` is much better. This will allow you to update it in the future. Download means you reorganize each time. I suggest you create a folder ``GitHub`` in your Documents folder.
+- You should be able to see a green button that says ``Clone or Download``. ``Clone``. **You do not want download as it will prevent me from being able to help you should things go wrong.** This will allow you to update it in the future. Download means you start from scratch each time. Please allow the`GitHub Desktop`_ to create the folder GitHub in your Documents folder. Trust me. You will want it there eventually, and moving it later creates a lot of unnecessary headaches. If you really dig in, you can figure it out. I have. I didn't do this on my personal machine and still regret it. There is NO benefit to not going with the default.
+
 
 Platform Differences
 --------------------
