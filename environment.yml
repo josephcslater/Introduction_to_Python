@@ -18,12 +18,13 @@ dependencies:
   - cython
   - numba
   - rise
-  - rpy2
   - tzlocal
   - simplegeneric
   - widgetsnbextension
   - jupyter_nbextensions_configurator
   - pip
   - nodejs
+  - r
+  - rpy2
   - pip:
-    - -r requirements.txt
+    - -e -r requirements.txt
