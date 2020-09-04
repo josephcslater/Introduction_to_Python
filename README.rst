@@ -201,7 +201,7 @@ Recommended Books
 .. _`SciPy Cookbook`: https://scipy-cookbook.readthedocs.io/
 .. _`Generic Python Introduction`: https://github.com/guntukukamal/Good-python-reference
 .. _`SciPy Lecture Notes`: https://github.com/scipy-lectures/scipy-lecture-notes
-.. _`4th Edition`_: https://hplgit.github.io/primer.html/doc/pub/half/book.pdf
+.. _`4th Edition`: https://hplgit.github.io/primer.html/doc/pub/half/book.pdf
 .. _`A Primer on Scientific Programming with Python`: https://www.amazon.com/Scientific-Programming-Computational-Science-Engineering/dp/3662498863/ref=sr_1_4?ie=UTF8&qid=1542249635&sr=8-4&keywords=scientific+python
 .. _`Learning Scientific Programming with Python`: https://www.amazon.com/Learning-Scientific-Programming-Python-Christian/dp/110742822X/ref=sr_1_3?ie=UTF8&qid=1542249635&sr=8-3&keywords=scientific+python
 .. _`What will be covered`: https://github.com/josephcslater/Introduction_to_Python/blob/master/Introduction_to_Scientific_Python.ipynb
