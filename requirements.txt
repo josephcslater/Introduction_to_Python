@@ -1,4 +1,3 @@
-sphinx
 vibration_toolbox
 PyQt5
 fortran-magic
