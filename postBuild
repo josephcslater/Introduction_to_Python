@@ -1,3 +1,2 @@
-conda activate base
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 python3 -m cite2c.install
