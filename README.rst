@@ -44,7 +44,7 @@ To be able to execute all of the code I will demonstrate during the class, and t
 Installing Scientific Python
 ----------------------------
 
-- Students should have `Anaconda Python`_, Python version 3.5, 3.6, 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
+- Students should have `Anaconda Python`_, Python version 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
 I may have an alternative live during the course, but it won't get your machine working!
 
@@ -72,7 +72,9 @@ Step 1:
 
 - Go to `the repository for this class in your web browser`_.
 
-- You should be able to see a green button that says ``Clone or Download``. ``Clone``. **You do not want download as it will prevent me from being able to help you should things go wrong.** This will allow you to update it in the future. Download means you start from scratch each time. Please allow the`GitHub Desktop`_ to create the folder GitHub in your Documents folder. Trust me. You will want it there eventually, and moving it later creates a lot of unnecessary headaches. If you really dig in, you can figure it out. I have. I didn't do this on my personal machine and still regret it. There is NO benefit to not going with the default.
+- You should be able to see a green button that says ``Clone or Download``. ``Clone``. **You do not want download as it will prevent me from being able to help you should things go wrong.** This will allow you to update it in the future. Download means you start from scratch each time. 
+
+- Please allow the`GitHub Desktop`_ to **create the folder GitHub in your Documents folder. Trust me. You will want it there eventually, and moving it later creates a lot of unnecessary headaches.** If you really dig in, you can figure it out. I have. I didn't do this on my personal machine and still regret it. There is NO benefit to not going with the default. **GO WITH THE DEFAULT LOCATION**.
 
 
 Platform Differences
@@ -89,7 +91,7 @@ Windows Users
 - Find the Anaconda Prompt application and run it. Answer *yes* to all prompts. Don't do anything it advises against.
 - Type ``conda update --all``
 - Open ``Anaconda Prompt``
-- You need to get to the right directory in Anaconda Prompt. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
+- You need to get to the right directory in ``Anaconda Prompt``. There are two methods. The first is better long-term. The second is faster to get started. It's about learning the command line.
 
   - Method 1. (Useful to learn, maybe not necessary today)
 
@@ -101,11 +103,9 @@ Windows Users
 
       - Near the top of the window you can see the entire path.
 
-      - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. This is called your path.
+      - This is your path. It will look something like ``C:\MyComputer\Users\Myname\GitHub\Introduction_to_Scientific_Python``. It depends on a lot of decisions you've made in the past and presently. You can right click and copy this path.
 
       - Get the right names and type ``cd `` *path from above*. This is all one line. The *path from above* is exactly what you read off the top of your window two bullets above.
-
-      - There may be something like ``Documents`` or such embedded. You need to figure this path out.
 
       - Typing ``dir`` should provide a list of files that include ``Calc_Review.ipynb``
 
@@ -174,9 +174,11 @@ Mac Users
   - ``jupyter notebook Introduction_to_Scientific_Python.ipynb``, or for a more sophisticated environment,
 
   - ``jupyter lab Introduction_to_Scientific_Python.ipynb`` (interaction is less reliable, I've found).
+  
+- I've found that some Mac configurations have problems. See `setting up an environment`_ which shows how to do this for an environment named ``controls``. You will want to name it something like ``latest``, as in *I always update ot the latest versions here*.
 
-If we have time, we will learn a little Bokeh (probably not)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If we have time, we will learn a little Bokeh (probably not, but I can dream)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 These are notes to myself... you might figure them out, you need to know how to hunt paths, though.
 
@@ -214,3 +216,4 @@ Recommended Books
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
 .. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
 .. _`do this class in Jupyter Lab`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
+.. _`setting up an environment`: https://github.com/josephcslater/Tennessee_Tech_ECE_3210_public/blob/master/controls_environment.rst
