@@ -216,4 +216,4 @@ Recommended Books
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
 .. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
 .. _`do this class in Jupyter Lab`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
-.. _`setting up an environment`: https://github.com/josephcslater/Tennessee_Tech_ECE_3210_public/blob/master/Getting_Started.rst
+.. _`setting up an environment`: https://github.com/josephcslater/Tennessee_Tech_ECE_3210_public/blob/master/controls_environment.rst
