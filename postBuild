@@ -1,2 +1,4 @@
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --minimize=False
 python3 -m cite2c.install
