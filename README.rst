@@ -44,21 +44,22 @@ To be able to execute all of the code I will demonstrate during the class, and t
 Installing Scientific Python
 ----------------------------
 
-- Students should have `Anaconda Python`_, Python version 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
+1. Students should have `Anaconda Python`_, Python version 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
 I may have an alternative live during the course, but it won't get your machine working!
 
-- When doing this *also install Visual Studio Code*. It is an option near the end.
+2. When doing this *also install Visual Studio Code*. It is an option near the end.
 
-- Just install anything it asks you about.
+3. Just install anything it asks you about.
 
-- Users should install locally (not for all users) to keep things simple.
+4. Users should install locally (not for all users) to keep things simple.
 
-- All platforms (Mac, Windows, Linux) will be covered.
+5. All platforms (Mac, Windows, Linux) will be covered.
 
-Step 1:
+Installing `GitHub Desktop`_ (you'll need this to get my notes)
+---------------------------------------------------------------
 
-- **Windows and Mac**: Download `GitHub Desktop`_ and install it. You may need to create an account on GitHub.
+- **Windows and Mac**: Download `GitHub Desktop`_ and install it. You may need to create an account on `GitHub.com`_ .
 
 - **Linux users**: Follow the MacOS instructions. The Mac is unix too.
 
@@ -180,7 +181,7 @@ Mac Users
 If we have time, we will learn a little Bokeh (probably not, but I can dream)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are notes to myself... you might figure them out, you need to know how to hunt paths, though.
+These are notes to myself. You might figure them out, you need to know how to hunt paths, though.
 
 ``bokeh serve /Users/jslater/Documents/python-dev/bokeh/examples/app/taylor.py``
 
@@ -217,3 +218,4 @@ Recommended Books
 .. _`this class in  mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master
 .. _`do this class in Jupyter Lab`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
 .. _`setting up an environment`: https://github.com/josephcslater/Tennessee_Tech_ECE_3210_public/blob/master/controls_environment.rst
+.. _`GitHub.com`: https://github.com/join
