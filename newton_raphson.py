@@ -1,5 +1,5 @@
 """
-Demonstrate of Scientific Python computing.
+Demonstration of Scientific Python computing.
 
 Uses Newton Raphson's method as a vehicle.
 """
