@@ -46,7 +46,7 @@ Installing Scientific Python
 
 I may have an alternative live during the course, but it won't get your machine working!
 
-1. Students should have `Anaconda Python`_, Python version 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
+1. Students should have `Anaconda Python`_, Python version 3.7 or later installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
 2. When doing this *also install Visual Studio Code* if the option is available. It is an option near the end. If not, don't worry about it. It's not necessary.
 
