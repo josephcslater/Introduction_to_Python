@@ -10,9 +10,7 @@ Instructions for Introduction to Scientific Python
 .. bibliographic fields (which also require a transform):
 
 :Author: Joseph C. Slater
-:Address: | 201 Clement Hall
-          | 1010 N. Peachtree Avenue
-          | Tennessee Tech University
+:Address: | Tennessee Tech University
           | Cookeville, TN 38505
 :Contact: joseph.c.slater@gmail.com
 :date: Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019)
@@ -46,7 +44,7 @@ Installing Scientific Python
 
 I may have an alternative live during the course, but it won't get your machine working!
 
-1. Students should have `Anaconda Python`_, Python version 3.7, or 3.8, installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
+1. Students should have `Anaconda Python`_, Python version 3.7 or later installed (64 bit is correct for any reasonably recent machine). **There won't be time to do this at the start of the short class!!!**
 
 2. When doing this *also install Visual Studio Code* if the option is available. It is an option near the end. If not, don't worry about it. It's not necessary.
 
