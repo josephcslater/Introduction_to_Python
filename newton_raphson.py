@@ -37,6 +37,28 @@ def myfunc(x):
     return x**2+2*x-4
 
 
+def _resolve(function):
+    """
+    Resolve *function* to a callable.
+
+    Accepts either a callable directly, or (for backward compatibility
+    with older notebook cells) a string with the name of a function
+    defined at module level, which is looked up via ``globals()``.
+
+    Parameters
+    ----------
+    function : callable or string
+        The function itself, or the name of a module-level function.
+
+    Returns
+    -------
+    callable
+    """
+    if callable(function):
+        return function
+    return globals()[function]
+
+
 def newton_raphson_plot(function, x0=0, dx=1e-10, eps=1e-10):
     """
     Solve for a root of a function using Newton Raphson's method.
@@ -45,8 +67,10 @@ def newton_raphson_plot(function, x0=0, dx=1e-10, eps=1e-10):
 
     Parameters
     ----------
-    function : string
-        String with name of function to be solved for *function(x) = 0*
+    function : callable or string
+        The function to be solved for *function(x) = 0*, or (for
+        backward compatibility) a string with the name of a
+        module-level function.
     x0       : float
         Initial guess for *x* near *function(x) = 0*
     dx       : float
@@ -59,28 +83,28 @@ def newton_raphson_plot(function, x0=0, dx=1e-10, eps=1e-10):
     >>> from newton_raphson import *
     >>> def myfunc(x):
     ...     return x**2+2*x-4
-    >>> function_name = 'myfunc'
-    >>> newton_raphson_plot(function_name, x0=2)
+    >>> newton_raphson_plot(myfunc, x0=2)
         (1.23606797..., ...)
 
     """
+    function = _resolve(function)
     deltax = 2 * eps
     count = 0
     x = x0
     y = np.linspace(1, 6, 200)
-    plt.plot(y, globals()[function](y))
+    plt.plot(y, function(y))
     plt.ylabel('$f(x)$')
     plt.xlabel('$x$')
     plt.title('Newton Raphson search for solution to $f(x)=0$.')
     plt.grid(True)
-    plt.plot(np.array([x0, x0]), np.array([globals()[function](x0), 0]), 'r')
-    plt.plot(np.array([x0]), np.array([globals()[function](x0)]), 'r*')
-    while abs(globals()[function](x)) > eps and count < 50:
+    plt.plot(np.array([x0, x0]), np.array([function(x0), 0]), 'r')
+    plt.plot(np.array([x0]), np.array([function(x0)]), 'r*')
+    while abs(function(x)) > eps and count < 50:
         count += 1
-        plt.plot(np.array([x, x]), np.array([globals()[function](x), 0]), 'r')
-        plt.plot(np.array([x]), np.array([globals()[function](x)]), 'r*')
-        f = globals()[function](x)
-        f2 = globals()[function](x + dx)
+        plt.plot(np.array([x, x]), np.array([function(x), 0]), 'r')
+        plt.plot(np.array([x]), np.array([function(x)]), 'r*')
+        f = function(x)
+        f2 = function(x + dx)
         dfdx = (f2 - f) / dx
         deltax = -f / dfdx
         x = x + deltax
@@ -96,8 +120,10 @@ def newton_raphson(function, x0=0, dx=1e-10, eps=1e-10):
 
     Parameters
     ----------
-    function : string
-        String with name of function to be solved for *function(x) = 0*
+    function : callable or string
+        The function to be solved for *function(x) = 0*, or (for
+        backward compatibility) a string with the name of a
+        module-level function.
     x0       : float
         Initial guess for *x* near *function(x) = 0*
     dx       : float
@@ -110,23 +136,19 @@ def newton_raphson(function, x0=0, dx=1e-10, eps=1e-10):
     >>> from newton_raphson import *
     >>> def myfunc(x):
     ...     return x**2+2*x-4
-    >>> function_name = 'myfunc'
-    >>> newton_raphson(function_name, x0=2)
+    >>> newton_raphson(myfunc, x0=2)
         (1.2360679..., ...)
 
     """
+    function = _resolve(function)
     deltax = 2*eps
     count = 0
     x = x0
     # loop until it converges, but no more than 50 times
     while abs(deltax) > eps and count < 50:
         count += 1  # I can add 1 to the variable *count*. Neat Python shortcut.
-        # This is a comment
-        # The next line is "Matlab style" and *bad*
-        # f = eval(function + '('+ str(x) + ')')
-        f = globals()[function](x)  # We explain later.
-        # f2 = eval(function + '('+ str(x+dx) + ')')
-        f2 = globals()[function](x+dx)
+        f = function(x)
+        f2 = function(x+dx)
         dfdx = (f2-f)/dx
         deltax = -f/dfdx
         x = x + deltax
