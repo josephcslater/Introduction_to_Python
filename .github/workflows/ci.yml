@@ -58,3 +58,29 @@ jobs:
         shell: bash -l {0}
         run: |
           python -c "import numpy, scipy, sympy, pandas, matplotlib, numba, cython, bokeh, openpyxl; print('core imports OK')"
+
+  repo2docker-build:
+    name: Verify actual mybinder.org image build (repo2docker)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # This runs the exact same build tool mybinder.org uses (repo2docker),
+      # including postBuild execution inside the built image. The
+      # conda-only "binder-environment" job above does not exercise
+      # postBuild or the Dockerfile repo2docker generates, so it could
+      # not have caught a real regression that shipped: postBuild's
+      # 'jupyter nbextension enable --py widgetsnbextension' failed
+      # outright once Binder's base image moved to Jupyter Notebook 7 /
+      # JupyterLab 4, which removed the classic 'jupyter nbextension'
+      # command entirely. This job builds (but does not run) the image
+      # so that class of failure is caught here instead of on Binder.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install repo2docker
+        run: python -m pip install --upgrade pip jupyter-repo2docker
+
+      - name: Build image with repo2docker (no run)
+        run: jupyter-repo2docker --no-run .
