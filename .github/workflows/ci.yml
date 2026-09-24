@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  doctests:
+    name: Run doctests (pytest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-dev.txt numpy matplotlib
+
+      - name: Run pytest
+        run: pytest -q
+
+  binder-environment:
+    name: Verify Binder environment builds
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Builds the exact conda/pip environment Binder uses
+      # (environment.yml + requirements.txt) as a smoke test that it
+      # still solves and installs cleanly. This does not execute the
+      # course notebooks: several of them intentionally demonstrate
+      # %%bash/%%ruby/%%perl/%%fortran/etc. cell magics that require
+      # system interpreters/compilers outside the scope of a
+      # lightweight CI check.
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: base
+          auto-activate-base: false
+
+      - name: Sanity-check core imports
+        shell: bash -l {0}
+        run: |
+          python -c "import numpy, scipy, sympy, pandas, matplotlib, numba, cython, bokeh, openpyxl; print('core imports OK')"
