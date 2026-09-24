@@ -5,25 +5,15 @@ dependencies:
   - numpy
   - sympy
   - scipy
+  - pandas
   - ipython
   - matplotlib
-  - slycot
-  - control
-  - graphviz
-  - xdg
-  - xarray
-  - xlrd
+  - openpyxl
   - fortran-magic
   - bokeh
   - cython
   - numba
-  - rise
-  - tzlocal
-  - simplegeneric
   - widgetsnbextension
-  - jupyter_nbextensions_configurator
   - pip
-  - nodejs
-  - r
   - pip:
     - -r requirements.txt

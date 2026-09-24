@@ -1,7 +1,2 @@
 vibration_toolbox
-PyQt5
-fortran-magic
 cffi_magic
-cite2c
-rpy2
-# https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922
