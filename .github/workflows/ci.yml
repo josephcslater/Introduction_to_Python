@@ -41,18 +41,9 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-version: latest
-          auto-activate-base: true
-          activate-environment: ""
-
-      # environment.yml's "name:" is "base" (matching the single-command
-      # "conda env update --file environment.yml" instructions in
-      # docs/SETUP.rst, so students don't need to learn `conda activate`).
-      # setup-miniconda special-cases the base env and won't apply
-      # environment-file to it directly, so update it explicitly here,
-      # exactly as students do.
-      - name: conda env update --file environment.yml
-        shell: bash -l {0}
-        run: conda env update -n base --file environment.yml
+          auto-activate-base: false
+          activate-environment: introduction-to-python
+          environment-file: environment.yml
 
       - name: Sanity-check core imports
         shell: bash -l {0}

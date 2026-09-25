@@ -1,21 +1,17 @@
 .. image:: https://mybinder.org/badge.svg
     :target: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master?urlpath=lab
 
-.. image:: https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg
-   :target: https://saythanks.io/to/joseph.c.slater@gmail.com
-
 Instructions for Introduction to Scientific Python
 ==================================================
 
 .. bibliographic fields (which also require a transform):
 
 :Author: Joseph C. Slater
-:Address: | Tennessee Tech University
-          | Cookeville, TN 38505
+:Address: Cookeville, TN 38505
 :Contact: joseph.c.slater@gmail.com
-:date: Date: 2019-08-25 19:23:53 +0000 (Sunday, 25 August 2019)
-:status: This is a "work in progress"
-:version: 1
+:date: 2026-09-25
+:status: 2026 version
+:version: 2.0
 :copyright: This document has been placed in the public domain. You
             may do with it as you wish. You may copy, modify,
             redistribute, reattribute, sell, buy, rent, lease,
@@ -24,25 +20,24 @@ Instructions for Introduction to Scientific Python
             anything else to it that your or anyone else's heart
             desires.
 
-**If you can't get this to work, you can do much of** `this class in  mybinder.org`_. There is more than one notebook (ends with ``.ipynb``) in the repository. Once the virtual machine launches, select the one you are interested in.
-
-**More full-featured, you can** `do this class in Jupyter Lab`_.
-
-How did I do this? `binder`_.
+Run the notebooks in your browser with `this class in mybinder.org`_ or `do this class in Jupyter Lab`_. The repository contains multiple notebooks; select the one you want after the environment launches.
 
 Quick Start
 -----------
 
-1. **Easiest**: click the *launch binder* badge above (or `this class in mybinder.org`_ / `do this class in Jupyter Lab`_) to run everything in your browser with nothing to install.
+1. **Easiest**: click the *launch Binder* badge above to run the notebooks in your browser with nothing to install.
 
-2. **To work locally**: install `Anaconda Python`_ and `GitHub Desktop`_, clone `the repository for this class in your web browser`_, then run::
+2. **Recommended for beginners**: install `Anaconda Python`_ and `GitHub Desktop`_, clone `the repository for this class in your web browser`_, then run::
 
-       conda env update --file environment.yml
+       conda env create --file environment.yml
+       conda activate introduction-to-python
        jupyter lab Introduction_to_Scientific_Python.ipynb
 
-   **Full, detailed, platform-by-platform instructions (Windows/Mac/Linux) are in** `docs/SETUP.rst`_. **Read that first if anything above is unclear or doesn't work** -- failing to install things in the expected locations will make the rest of the class hard to follow.
+   **Full, platform-by-platform instructions (Windows/Mac/Linux) are in** `docs/SETUP.rst`_. Read that first if anything above is unclear or does not work.
 
-`What will be covered`_? The rest will happen in class! (See that link, those are the actual class notes; also see `topics.rst`_.)
+3. **Alternative for users comfortable with terminals**: install `uv`_, clone the repository, and follow the `uv setup instructions`_ in `docs/SETUP.rst`_. Anaconda is easier for beginners because it provides a guided installer, Anaconda Prompt, and the compiler support used by this course.
+
+See `What will be covered`_ for the course notes and `topics.rst`_ for the list of topics.
 
 Other Educational Resources
 ---------------------------
@@ -57,7 +52,6 @@ Recommended Books
 - `Learning Scientific Programming with Python`_ - Christian Hill
 - `A Primer on Scientific Programming with Python`_ - Hans Petter Langtangen (`4th Edition`_)
 
-.. _`binder`: https://mybinder.org
 .. _`SciPy Cookbook`: https://scipy-cookbook.readthedocs.io/
 .. _`Generic Python Introduction`: https://github.com/guntukukamal/Good-python-reference
 .. _`SciPy Lecture Notes`: https://github.com/scipy-lectures/scipy-lecture-notes
@@ -69,7 +63,9 @@ Recommended Books
 .. _`docs/SETUP.rst`: docs/SETUP.rst
 .. _`Lorena Barba's Numerical Python MOOC`: https://github.com/numerical-mooc/numerical-mooc
 .. _`Python Plotting With Matplotlib`: https://realpython.com/python-matplotlib-guide/#pylab-what-is-it-and-should-i-use-it
-.. _`Anaconda Python`: https://www.anaconda.com/download/#download
+.. _`Anaconda Python`: https://www.anaconda.com/download
+.. _`uv`: https://docs.astral.sh/uv/getting-started/installation/
+.. _`uv setup instructions`: docs/SETUP.rst#alternative-setup-with-uv
 .. _`GitHub Desktop`: https://desktop.github.com/
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python
 .. _`this class in mybinder.org`: https://mybinder.org/v2/gh/josephcslater/Introduction_to_Python/master

@@ -52,6 +52,36 @@ Further, Anaconda sets up your terminal to work well for you.
 
 These are step-by-step to walk you through what needs to happen in the terminal for each platform.
 
+Alternative Setup with uv
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Anaconda setup above is recommended for beginners. Anaconda provides a
+guided installer, Anaconda Prompt, and the compiler support needed by the
+Fortran notebook cells. The ``uv`` setup is a good alternative if you are
+already comfortable using a terminal and virtual environments.
+
+Install `uv`_ using its `installation instructions`_, then open a terminal in
+the repository directory and run::
+
+  uv venv --python 3.12
+
+Activate the virtual environment. On macOS or Linux, run::
+
+  source .venv/bin/activate
+
+On Windows PowerShell, run::
+
+  .venv\Scripts\Activate.ps1
+
+Install the project dependencies and launch Jupyter Lab::
+
+  uv pip install -r requirements-uv.txt
+  jupyter lab Introduction_to_Scientific_Python.ipynb
+
+The ``%%fortran`` notebook cells also require a system ``gfortran`` compiler.
+Installing that compiler is a separate operating-system task when using
+``uv``; the Anaconda environment handles it through ``environment.yml``.
+
 Windows Users
 ~~~~~~~~~~~~~~
 
@@ -83,7 +113,8 @@ Windows Users
     - On the right it will (may- I haven't checked) provide options, one of which is ``open in Anaconda Prompt``.
 
     - This, plus the ``cd`` command (cd both changes directory when there is a directory after it, or tells you the directory if there is not.) can tell you where everything is.
-- Type ``conda env update --file environment.yml``
+- Type ``conda env create --file environment.yml``
+- Type ``conda activate introduction-to-python``
 
 - Get to this directory when you want to run the course material (maybe now, maybe later) and type:
 
@@ -134,7 +165,8 @@ Mac Users
 
     - This, plus the ``pwd`` command (present working directory) can tell you where everything is.
 
-- Type ``conda env update --file environment.yml``
+- Type ``conda env create --file environment.yml``
+- Type ``conda activate introduction-to-python``
 
 - Get to this same directory when you want to run the course material (maybe now, maybe later) and type one of:
 
@@ -154,7 +186,9 @@ These are notes to myself. You might figure them out, you need to know how to hu
 ``jupyter notebook /Users/jslater/Documents/python-dev/bokeh-notebooks/quickstart``
 
 .. _`README.rst`: ../README.rst
-.. _`Anaconda Python`: https://www.anaconda.com/download/#download
+.. _`Anaconda Python`: https://www.anaconda.com/download
+.. _`uv`: https://docs.astral.sh/uv/getting-started/installation/
+.. _`installation instructions`: https://docs.astral.sh/uv/getting-started/installation/
 .. _`GitHub Desktop`: https://desktop.github.com/
 .. _`GitKraken`: https://www.gitkraken.com/
 .. _`the repository for this class in your web browser`: https://github.com/josephcslater/Introduction_to_Python

@@ -1,0 +1,15 @@
+-r requirements.txt
+jupyterlab
+notebook
+numpy
+sympy
+scipy
+pandas
+ipython
+matplotlib
+openpyxl
+fortran-magic
+bokeh
+cython
+numba
+widgetsnbextension

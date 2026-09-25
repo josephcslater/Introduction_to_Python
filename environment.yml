@@ -1,4 +1,4 @@
-name: base
+name: introduction-to-python
 channels:
   - conda-forge
 dependencies:
