@@ -61,7 +61,7 @@ Recommended Books
 .. _`What will be covered`: https://github.com/josephcslater/Introduction_to_Python/blob/master/Introduction_to_Scientific_Python.ipynb
 .. _`topics.rst`: topics.rst
 .. _`docs/SETUP.rst`: docs/SETUP.rst
-.. _`Lorena Barba's Numerical Python MOOC`: https://github.com/numerical-mooc/numerical-mooc
+.. _`Lorena Barba's Numerical Python MOOC`: https://github.com/numerical-mooc/practical-numerical-methods
 .. _`Python Plotting With Matplotlib`: https://realpython.com/python-matplotlib-guide/#pylab-what-is-it-and-should-i-use-it
 .. _`Anaconda Python`: https://www.anaconda.com/download
 .. _`uv`: https://docs.astral.sh/uv/getting-started/installation/
