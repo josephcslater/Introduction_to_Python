@@ -199,6 +199,50 @@ find it) and restart the kernel so matplotlib notices the new font.
 
 .. _`xkcd Script`: https://github.com/ipython/xkcd-font
 
+``NumbaWarning: ... falling back to object mode`` messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The "Parallel Processing" section demonstrates ``@jit(forceobj=True)``,
+which deliberately asks numba to use its slower, interpreted
+object-mode fallback (needed because the function calls another JIT
+Dispatcher from within a list comprehension, which nopython mode can't
+type-infer). Current versions of numba still attempt nopython
+compilation first, fail, and log a ``NumbaWarning`` before honoring
+``forceobj=True`` -- this is expected, harmless, and does not affect
+the (correct) result. The notebook already silences this warning for
+you before the relevant cells.
+
+``SyntaxWarning: invalid escape sequence`` messages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you see a warning like ``SyntaxWarning: invalid escape sequence
+'\z'`` (or similar) pointing at a ``plt.text(...)`` or other string
+containing LaTeX (e.g. ``$X_0e^{-\zeta\omega_nt}$``), it means a plain
+Python string contains a backslash sequence (``\z``, ``\o``, etc.)
+that Python doesn't recognize as an escape code. The fix is to prefix
+the string with ``r`` to make it a raw string, e.g. ``r'...\zeta...'``,
+so backslashes are passed through unchanged to matplotlib's LaTeX
+renderer. This has already been fixed everywhere it occurred in these
+notebooks; if you add new LaTeX-containing strings yourself, use raw
+strings to avoid the same warning.
+
+GitHub shows "Invalid Notebook" / a widget-state JSON error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If GitHub's notebook viewer refuses to render a notebook with an error
+mentioning ``application/vnd.jupyter.widget-state+json`` being missing,
+the notebook's top-level ``metadata.widgets`` block is in an old,
+pre-ipywidgets-7 format that current ``nbformat``/``nbconvert`` (and
+GitHub's renderer) don't understand. If the notebook doesn't actually
+contain any live interactive widget output, the safest fix is simply
+to delete the ``widgets`` key from the notebook's ``metadata`` dict
+(open the ``.ipynb`` file as JSON and remove it), then re-save. This
+has already been fixed for the notebooks in this repository as of
+2024; it would only recur if a future edit re-introduces stale widget
+state, e.g. by running a cell with an interactive widget and then
+removing that cell without also clearing the leftover notebook-level
+metadata.
+
 If we have time, we will learn a little Bokeh (probably not, but I can dream)
 --------------------------------------------------------------------------------
 
