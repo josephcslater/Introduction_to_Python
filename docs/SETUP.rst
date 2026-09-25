@@ -176,6 +176,29 @@ Mac Users
 
 - I've found that some Mac configurations have problems. See `setting up an environment`_ which shows how to do this for an environment named ``controls``. You will want to name it something like ``latest``, as in *I always update ot the latest versions here*.
 
+Troubleshooting
+---------------
+
+``findfont: Font family '...' not found`` warnings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you see repeated ``findfont: Font family 'xkcd'/'Comic Sans MS'/...
+not found`` messages when running the ``plt.xkcd()`` demo, this is
+harmless: it just means matplotlib could not find a comic-style font on
+your system (or in its own font cache) and fell back to the default
+font for text. The notebook already silences these messages for you.
+The characteristic hand-drawn, wobbly-line look of ``plt.xkcd()`` does
+not depend on the font at all, so the plot itself is unaffected either
+way.
+
+If you would like the plot *text* to also render in a comic-style font,
+install a font such as `xkcd Script`_ or ``Comic Sans MS`` on your
+system, then delete matplotlib's font cache folder (run
+``python -c "import matplotlib; print(matplotlib.get_cachedir())"`` to
+find it) and restart the kernel so matplotlib notices the new font.
+
+.. _`xkcd Script`: https://github.com/ipython/xkcd-font
+
 If we have time, we will learn a little Bokeh (probably not, but I can dream)
 --------------------------------------------------------------------------------
 
